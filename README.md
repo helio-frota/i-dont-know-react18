@@ -7,3 +7,5 @@
   * `current-vdom diff new-vdom ---> real-dom`
   * I found this related to [virtualDOM](https://indepth.dev/posts/1501/exploring-how-virtual-dom-is-implemented-in-react)
 * JSX is a thing that mix JS with tags and it will be transpiled to JS ([source](https://facebook.github.io/jsx/))
+  * JSX needs to be transpiled into JavaScript using a tool such as babel.
+  * Since I'll keep the focus on TS/TSX and [Webpack](https://github.com/martelinho-de-ouro/i-dont-know-webpack5),then [ts-loader](https://github.com/TypeStrong/ts-loader) will transpile that instead of babel, as I don't care about any specifics polyfills or performance or custom stuff.
