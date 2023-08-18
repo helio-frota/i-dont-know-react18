@@ -32,6 +32,8 @@ dist
 touch .eslintrc
 ```
 
+This eslint configuration bellow is the same as [this](https://github.com/obs-nebula/check-traces/blob/main/.eslintrc), and which is based on [OTEL-JS](https://github.com/open-telemetry/opentelemetry-js/blob/main/eslint.base.js)
+
 ```js
 {
   "root": true,
@@ -105,6 +107,8 @@ dist
 ```console
 touch .prettierrc
 ```
+
+This prettier configuration bellow is based on [OTEL-JS](https://github.com/open-telemetry/opentelemetry-js/blob/main/prettier.config.js)
 
 ```js
 {
