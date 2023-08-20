@@ -30,13 +30,6 @@ const config: Configuration = {
     new HtmlWebpackPlugin({ template: 'src/index.html' }),
   ],
   devtool: 'inline-source-map',
-  devServer: {
-    static: path.join(__dirname, 'dist'),
-    historyApiFallback: true,
-    port: 3000,
-    open: true,
-    hot: true,
-  }
 };
 
 export default config;
