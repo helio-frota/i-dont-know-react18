@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AButton from './aButton';
+import AButton from './AButton';
 
 function AForm() {
   return (

@@ -1,7 +1,7 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-import AForm from './components/aForm';
+import AForm from './components/AForm';
 
 const root = createRoot(document.getElementById('root') as HTMLElement);
 
