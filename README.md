@@ -22,13 +22,12 @@
 
 ```html
 <> <--------------------------
-  <h1>Hello World!</h1>
-  <h1>Let's learn React!</h1>
+  <h1>foo</h1>
+  <h1>bar</h1>
 </> <-------------------------
 ```
 
 Is used to wrap (J|T)SX elements with an array behind the scenes.
-
 
 * `state` contains information about current component's situation.
   * When a change happen in the component it causes a refresh also know as re-rendering.
